@@ -35,7 +35,18 @@
     </nav>
     <main>
         <article>
-            <h2>Contactez-moi</h2>
+    <form action="https://formspree.io/f/manjkazg" method="POST">
+        <input type="text" name="nom" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+    <style>
+        form { max-width: 500px; margin: auto; }
+        input, textarea { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background: #2c3e50; color: white; padding: 10px 20px; border: none; }
+    </style>
+</article>
             <p>Pour des collaborations, publicités ou développement web :</p>
             <ul>
                 <li>📧 Email : <strong>contact@kevinkuyenga.com</strong> (à remplacer)</li>
